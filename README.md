@@ -12,7 +12,7 @@
 Pete y Billy quieren dividir una sandía de peso $w$ en dos partes, de tal manera que **ambas partes pesen un número par de kilos**. No es necesario que las partes sean iguales. El programa debe determinar si esta división es posible.
 
 ## 💡 Lógica de la Solución
-Para resolver este problema, analizamos las propiedades de los números pares:
+Para resolver este problema, analicé las propiedades de los números pares:
 1.  **Paridad:** La suma de dos números pares siempre da un número par. Por lo tanto, el peso total $w$ debe ser par (`w % 2 == 0`).
 2.  **Caso Borde (Edge Case):** El número **2**. Aunque es par, la única forma de dividirlo en enteros positivos es $1 + 1$. Como 1 es impar, el número 2 no cumple la condición.
 
